@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F29AF92C20A56371007136FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AF92B20A56371007136FC /* AppDelegate.m */; };
+		F29AF92F20A56371007136FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AF92E20A56371007136FC /* ViewController.m */; };
+		F29AF93420A56373007136FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29AF93320A56373007136FC /* Assets.xcassets */; };
+		F29AF93720A56373007136FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29AF93520A56373007136FC /* LaunchScreen.storyboard */; };
+		F29AF93A20A56373007136FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AF93920A56373007136FC /* main.m */; };
+		F29AF94320A565A3007136FC /* XMAppLockPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AF94220A565A3007136FC /* XMAppLockPatternView.m */; };
+		F29AF94620A565BC007136FC /* XMAppLockPatternItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AF94520A565BC007136FC /* XMAppLockPatternItemView.m */; };
+		F29AF94920A56DA3007136FC /* PatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AF94820A56DA3007136FC /* PatternViewController.m */; };
+		F29AF94C20A57305007136FC /* XMAppLockKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AF94B20A57305007136FC /* XMAppLockKeyboard.m */; };
+		F29AF94E20A5880F007136FC /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F29AF94D20A5880F007136FC /* images.bundle */; };
+		F29AF95120A589BD007136FC /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AF95020A589BD007136FC /* KeyboardViewController.m */; };
+		F29AF95420A58B9C007136FC /* XMAppLockInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AF95320A58B9C007136FC /* XMAppLockInputView.m */; };
+		F29AF95720A58C13007136FC /* XMWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AF95620A58C13007136FC /* XMWeakProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F29AF92720A56371007136FC /* XMAppLockView-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMAppLockView-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29AF92A20A56371007136FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F29AF92B20A56371007136FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F29AF92D20A56371007136FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F29AF92E20A56371007136FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F29AF93320A56373007136FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F29AF93620A56373007136FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F29AF93820A56373007136FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29AF93920A56373007136FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F29AF94120A565A3007136FC /* XMAppLockPatternView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMAppLockPatternView.h; sourceTree = "<group>"; };
+		F29AF94220A565A3007136FC /* XMAppLockPatternView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMAppLockPatternView.m; sourceTree = "<group>"; };
+		F29AF94420A565BC007136FC /* XMAppLockPatternItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMAppLockPatternItemView.h; sourceTree = "<group>"; };
+		F29AF94520A565BC007136FC /* XMAppLockPatternItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMAppLockPatternItemView.m; sourceTree = "<group>"; };
+		F29AF94720A56DA3007136FC /* PatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatternViewController.h; sourceTree = "<group>"; };
+		F29AF94820A56DA3007136FC /* PatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatternViewController.m; sourceTree = "<group>"; };
+		F29AF94A20A57305007136FC /* XMAppLockKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMAppLockKeyboard.h; sourceTree = "<group>"; };
+		F29AF94B20A57305007136FC /* XMAppLockKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMAppLockKeyboard.m; sourceTree = "<group>"; };
+		F29AF94D20A5880F007136FC /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		F29AF94F20A589BD007136FC /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		F29AF95020A589BD007136FC /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		F29AF95220A58B9C007136FC /* XMAppLockInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMAppLockInputView.h; sourceTree = "<group>"; };
+		F29AF95320A58B9C007136FC /* XMAppLockInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMAppLockInputView.m; sourceTree = "<group>"; };
+		F29AF95520A58C13007136FC /* XMWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMWeakProxy.h; sourceTree = "<group>"; };
+		F29AF95620A58C13007136FC /* XMWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMWeakProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29AF92420A56371007136FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29AF91E20A56371007136FC = {
+			isa = PBXGroup;
+			children = (
+				F29AF92920A56371007136FC /* XMAppLockView-master */,
+				F29AF92820A56371007136FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F29AF92820A56371007136FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29AF92720A56371007136FC /* XMAppLockView-master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29AF92920A56371007136FC /* XMAppLockView-master */ = {
+			isa = PBXGroup;
+			children = (
+				F29AF94020A563A3007136FC /* XMAppLockView */,
+				F29AF92A20A56371007136FC /* AppDelegate.h */,
+				F29AF92B20A56371007136FC /* AppDelegate.m */,
+				F29AF92D20A56371007136FC /* ViewController.h */,
+				F29AF92E20A56371007136FC /* ViewController.m */,
+				F29AF94720A56DA3007136FC /* PatternViewController.h */,
+				F29AF94820A56DA3007136FC /* PatternViewController.m */,
+				F29AF94F20A589BD007136FC /* KeyboardViewController.h */,
+				F29AF95020A589BD007136FC /* KeyboardViewController.m */,
+				F29AF93320A56373007136FC /* Assets.xcassets */,
+				F29AF93520A56373007136FC /* LaunchScreen.storyboard */,
+				F29AF93820A56373007136FC /* Info.plist */,
+				F29AF93920A56373007136FC /* main.m */,
+			);
+			path = "XMAppLockView-master";
+			sourceTree = "<group>";
+		};
+		F29AF94020A563A3007136FC /* XMAppLockView */ = {
+			isa = PBXGroup;
+			children = (
+				F29AF94120A565A3007136FC /* XMAppLockPatternView.h */,
+				F29AF94220A565A3007136FC /* XMAppLockPatternView.m */,
+				F29AF94420A565BC007136FC /* XMAppLockPatternItemView.h */,
+				F29AF94520A565BC007136FC /* XMAppLockPatternItemView.m */,
+				F29AF94A20A57305007136FC /* XMAppLockKeyboard.h */,
+				F29AF94B20A57305007136FC /* XMAppLockKeyboard.m */,
+				F29AF95220A58B9C007136FC /* XMAppLockInputView.h */,
+				F29AF95320A58B9C007136FC /* XMAppLockInputView.m */,
+				F29AF95520A58C13007136FC /* XMWeakProxy.h */,
+				F29AF95620A58C13007136FC /* XMWeakProxy.m */,
+				F29AF94D20A5880F007136FC /* images.bundle */,
+			);
+			name = XMAppLockView;
+			path = ../../XMAppLockView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F29AF92620A56371007136FC /* XMAppLockView-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29AF93D20A56373007136FC /* Build configuration list for PBXNativeTarget "XMAppLockView-master" */;
+			buildPhases = (
+				F29AF92320A56371007136FC /* Sources */,
+				F29AF92420A56371007136FC /* Frameworks */,
+				F29AF92520A56371007136FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMAppLockView-master";
+			productName = "XMAppLockView-master";
+			productReference = F29AF92720A56371007136FC /* XMAppLockView-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29AF91F20A56371007136FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = xmalt;
+				TargetAttributes = {
+					F29AF92620A56371007136FC = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F29AF92220A56371007136FC /* Build configuration list for PBXProject "XMAppLockView-master" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29AF91E20A56371007136FC;
+			productRefGroup = F29AF92820A56371007136FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29AF92620A56371007136FC /* XMAppLockView-master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29AF92520A56371007136FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29AF93720A56373007136FC /* LaunchScreen.storyboard in Resources */,
+				F29AF94E20A5880F007136FC /* images.bundle in Resources */,
+				F29AF93420A56373007136FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29AF92320A56371007136FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29AF92F20A56371007136FC /* ViewController.m in Sources */,
+				F29AF94320A565A3007136FC /* XMAppLockPatternView.m in Sources */,
+				F29AF95420A58B9C007136FC /* XMAppLockInputView.m in Sources */,
+				F29AF93A20A56373007136FC /* main.m in Sources */,
+				F29AF95120A589BD007136FC /* KeyboardViewController.m in Sources */,
+				F29AF95720A58C13007136FC /* XMWeakProxy.m in Sources */,
+				F29AF94920A56DA3007136FC /* PatternViewController.m in Sources */,
+				F29AF94620A565BC007136FC /* XMAppLockPatternItemView.m in Sources */,
+				F29AF94C20A57305007136FC /* XMAppLockKeyboard.m in Sources */,
+				F29AF92C20A56371007136FC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F29AF93520A56373007136FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29AF93620A56373007136FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29AF93B20A56373007136FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F29AF93C20A56373007136FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29AF93E20A56373007136FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQRN8QEZM2;
+				INFOPLIST_FILE = "XMAppLockView-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xmalt.XMAppLockView-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29AF93F20A56373007136FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQRN8QEZM2;
+				INFOPLIST_FILE = "XMAppLockView-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xmalt.XMAppLockView-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29AF92220A56371007136FC /* Build configuration list for PBXProject "XMAppLockView-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29AF93B20A56373007136FC /* Debug */,
+				F29AF93C20A56373007136FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29AF93D20A56373007136FC /* Build configuration list for PBXNativeTarget "XMAppLockView-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29AF93E20A56373007136FC /* Debug */,
+				F29AF93F20A56373007136FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F29AF91F20A56371007136FC /* Project object */;
+}
